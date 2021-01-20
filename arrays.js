@@ -10,24 +10,22 @@ function addElementToBeginningOfArray (array, element) {
  return ['element', ...array,];
 }
 
-
-
-var destructivelyAddElementToBeginningOfArray = (array, element) => {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
-};
+}
 
-var accessElementInArray = (array, index) => {
+function accessElementInArray(array, index) {
   
-};
+}
 
-var destructivelyRemoveElementFromBeginningOfArray = () => {
+function destructivelyRemoveElementFromBeginningOfArray() {
   destructivelyRemoveElementFromBeginningOfArray.shift();
   return destructivelyRemoveElementFromBeginningOfArray;
-};
+}
 
-var removeElementFromBeginningOfArray = () => {
+function removeElementFromBeginningOfArray() {
   
   return removeElementFromBeginningOfArray;
-};
+}
 removeElementFromBeginningOfArray.slice(1);
